@@ -1,0 +1,94 @@
+
+
+body {
+  background-color: #fffbf2;
+  font-family: 'Libre Baskerville', serif;
+  color: rgb(244, 135, 153);
+  margin: 0;
+}
+
+.btn-pink {
+  text-decoration: none;
+  color: rgb(255, 238, 247);
+  background-color: rgb(244, 135, 153);
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+#header {
+  color: #FE5E41;
+}
+
+.body-headings{
+  color: #FE5E41;
+}
+
+.btn-pink:hover {
+background-color: #FFD400;
+color: rgb(244, 135, 153);
+}
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.img-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 75%;
+}
+
+.inline-icon {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.inline-icon li {
+  display: inline;
+  font-size: 200%;
+  padding: 0px 20px;
+}
+
+.inline-icon li a {
+  text-decoration: none;
+}
+
+.container{
+  width: 100%;
+  margin: 40 auto;
+}
+
+div {
+  display: block;
+}
+
+.card{
+  text-align: center;
+  background: #fffbf2;
+  padding: 35px;
+  margin: 10%;
+  border: 1px solid rgb(244, 135, 153);
+  border-radius: 12px;
+  box-shadow: 2px 2px 3px #FE5E41;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
